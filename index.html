@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Letter counter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="icon" type="image/png" href="img/icon.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="flex flex-col justify-center items-center h-screen bg-rose-400">
+        <h1 class="my-8 text-9xl font-light text-rose-900 text-center">Letter counter</h1>
+        <div class="md:container md:mx-auto flex justify-center">
+            <input type="text" id="word" class="w-max h-16 p-4 bg-inherit border-2 border-solid border-rose-900 focus:outline-none text-3xl text-rose-900 shadow focus:shadow-lg hover:shadow-lg duration-500">
+        </div>
+        <p id="counter" class="my-8 text-9xl font-medium text-rose-900"></p>
+    </div>
+</body>
+</html>
